@@ -1,0 +1,135 @@
+body {
+    background-image: url("https://t3.ftcdn.net/jpg/05/35/49/82/360_F_535498239_jFvSUu8PY7SyOw5MDvQtsCVDBj5TKVo1.jpg");
+    background-size: fill;
+    height: 100ch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+#all-contents {
+    background-color: white;
+    max-width: 50%;
+}
+
+/* navigation menu */
+nav {
+    padding: 0px;
+    height: 35px;
+    width: 675px;
+    display: inline-block;
+    border:1.5px solid #e9c46a
+}
+h1 {
+    display: flex;
+    align-items: center;
+    color: #280412;
+    flex: 1;
+}
+h2 {
+    display: flex;
+    align-items: left;
+    color: #280412;
+    flex: 1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+#nav-ul {
+    display: inline-flex;
+    list-style: none;
+    align-items: right;
+}
+.nav-li {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+}
+
+
+/* main container area beneath menu */
+main {
+
+    display: flex;
+    flex-direction: row;
+
+}
+.music {
+    background: white;
+    align-content: center;
+    height: 333px;
+    width: 225px;
+}
+.music-img {
+    width: 225px;
+    height: 330px;
+    align-self: center;
+    justify-self: center;
+}
+
+
+.webp {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.idkyet {
+    height: auto;
+    width: 225px;
+    height: 333px;
+}
+
+.bottom {
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    height: 75px;
+    width: 675px;
+}
+
+#bottomimg {
+    height: 50px;
+    width: 150px;
+}
+
+.top {
+
+    background-size: fill;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    height: 85px;
+    width: 675px;
+    border:1.5px solid #2a9daf;
+}
+
+.soc {
+    display: inline-block;
+    align-items: center;
+}
+
+.jsite {
+    width: 250px;
+    height: 25px;
+    padding: 0px;
+}
+
+.socheader {
+    width: 394px;
+    height: 40px;
+}
+
+.abtme {
+    width: 225px;
+    height: 330px;
+    align-self: center;
+    justify-self: center;
+}
+
+.hobbies {
+    width: 225px;
+    height: 330px;
+    align-self: center;
+    justify-self: center;
+}

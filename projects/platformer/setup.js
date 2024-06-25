@@ -16,13 +16,13 @@ const playerScale = 0.8; //makes the player just a bit smaller. Doesn't affect t
 
 // Player variables
 const player = {
-  x: 50,
-  y: 100,
+  x: 125,
+  y: 600,
   speedX: 0,
   speedY: 0,
   width: undefined,
   height: undefined,
-  onGround: false,
+  onGround: true,
   facingRight: true,
   deadAndDeathAnimationDone: false,
 };
@@ -74,7 +74,7 @@ let cannons = [];
 const cannonWidth = 118;
 const cannonHeight = 80;
 let projectiles = [];
-const defaultProjectileWidth = 24;
+const defaultProjectileWidth = 32;
 const defaultProjectileHeight = defaultProjectileWidth;
 const collectableWidth = 40;
 const collectableHeight = 40;
@@ -97,4 +97,6 @@ var collectableList = {
   kennedi: { image: "images/collectables/kennedi-head.png" },
   max: { image: "images/collectables/max-head.png" },
   steve: { image: "images/collectables/steve-head.png" },
+  fishy: { image: "images/collectables/fishy.png" },
+  mouse: { image: "images/collectables/pixil-frame-0 (1).png"}
 };
